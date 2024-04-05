@@ -7,8 +7,6 @@ function handleSubmit(e) {
 
   const searchQuery = searchInput.value;
   const selectValue = selectBox.value;
-  //   console.log(searchQuery);
-  //   console.log(selectValue);
 
   if (!searchQuery) {
     return;
